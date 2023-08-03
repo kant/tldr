@@ -1,7 +1,7 @@
 # asciinema
 
 > 录制和播放终端会话，也可以把他们分享到 asciinema.org.
-> 更多信息：<https://asciinema.org/>.
+> 更多信息：<https://asciinema.org/docs/usage>.
 
 - 将本地安装的`asciinema`与 asciinema.org 账号关联：
 
@@ -31,6 +31,6 @@
 
 `asciinema cat {{文件路径}}.cast`
 
-- 从本地上传一个录屏到 asciinema.org:
+- 从本地上传一个录屏到 asciinema.org：
 
 `asciinema upload {{文件路径}}.cast`

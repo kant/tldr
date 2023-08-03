@@ -1,7 +1,7 @@
 # dnf
 
 > Administrador de paquetes para RHEL, CentOS y Fedora (Reemplaza a yum).
-> Más información: <https://dnf.readthedocs.io/>.
+> Más información: <https://dnf.readthedocs.io>.
 
 - Actualiza todos los paquetes a la última versión disponible:
 
@@ -19,7 +19,7 @@
 
 `sudo dnf install {{paquete}}`
 
-- Instala un nuevo paquete respondiendo si a todas las preguntas:
+- Instala un nuevo paquete respondiendo sí a todas las preguntas:
 
 `sudo dnf install -y {{paquete}}`
 
