@@ -12,6 +12,7 @@ labels = {
     "ar": "لمزيد من التفاصيل:",
     "bn": "আরও তথ্য পাবেন:",
     "bs": "Više informacija:",
+    "ca": "Més informació:",
     "da": "Mere information:",
     "de": "Weitere Informationen:",
     "es": "Más información:",
@@ -23,7 +24,9 @@ labels = {
     "it": "Maggiori informazioni:",
     "ja": "詳しくはこちら:",
     "ko": "더 많은 정보:",
+    "lo": "ຂໍ້ມູນເພີ່ມເຕີມ:",
     "ml": "കൂടുതൽ വിവരങ്ങൾ:",
+    "ne": "थप जानकारी:",
     "nl": "Meer informatie:",
     "no": "Mer informasjon:",
     "pl": "Więcej informacji:",
@@ -33,10 +36,11 @@ labels = {
     "ru": "Больше информации:",
     "sr": "Više informacija na:",
     "sv": "Mer information:",
-    "ta": "மேலும் தகவல்:",
-    "th": "ดูเพิ่มเติม:",
+    "ta": "மேலும் விவரத்திற்கு:",
+    "th": "ข้อมูลเพิ่มเติม:",
     "tr": "Daha fazla bilgi için:",
     "uk": "Більше інформації:",
+    "uz": "Ko'proq malumot:",
     "zh_TW": "更多資訊：",
     "zh": "更多信息：",
 }
@@ -84,7 +88,7 @@ def set_link(file, link):
     # build new line
     if locale == "hi":
         new_line = f"> {labels[locale]} <{link}>।\n"
-    elif locale == "ja":
+    elif locale == "ja" or locale == "th":
         new_line = f"> {labels[locale]} <{link}>\n"
     elif locale == "zh" or locale == "zh_TW":
         new_line = f"> {labels[locale]}<{link}>.\n"

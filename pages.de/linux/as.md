@@ -2,9 +2,9 @@
 
 > Portabler GNU assembler.
 > Hauptsächlich beabsichtigt um output von `gcc` für `ld` vorzubereiten.
-> Mehr Informationen: <https://manned.org/as>.
+> Weitere Informationen: <https://manned.org/as>.
 
-- Assemble eine Datei und schreibe den Output in eine in `a.out`.
+- Assemble eine Datei und schreibe den Output in eine in `a.out`:
 
 `as {{datei.s}}`
 

@@ -4,7 +4,7 @@
 > Dictionaries are provided separately from the client.
 > More information: <https://manned.org/sdcv>.
 
-- Start sdcv interactively:
+- Start `sdcv` interactively:
 
 `sdcv`
 
@@ -30,4 +30,4 @@
 
 - Search for dictionaries in a specific directory:
 
-`sdvc --data-dir {{path/to/directory}} {{search_term}}`
+`sdcv --data-dir {{path/to/directory}} {{search_term}}`

@@ -1,11 +1,8 @@
 # pacman --remove
 
 > Arch Linux package manager utility.
+> See also: `pacman`.
 > More information: <https://man.archlinux.org/man/pacman.8>.
-
-- Display help for this subcommand:
-
-`pacman --remove --help`
 
 - Remove a package and its dependencies:
 
@@ -30,3 +27,7 @@
 - List packages that would be affected (does not remove any packages):
 
 `pacman --remove --print {{package_name}}`
+
+- Display help for this subcommand:
+
+`pacman --remove --help`

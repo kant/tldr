@@ -2,19 +2,19 @@
 
 > Transfers data from or to a server.
 > Supports most protocols, including HTTP, FTP, and POP3.
-> More information: <https://curl.se>.
+> More information: <https://curl.se/docs/manpage.html>.
 
 - Download the contents of a URL to a file:
 
-`curl {{http://example.com}} --output {{filename}}`
+`curl {{http://example.com}} --output {{path/to/file}}`
 
 - Download a file, saving the output under the filename indicated by the URL:
 
 `curl --remote-name {{http://example.com/filename}}`
 
-- Download a file, following location redirects, and automatically continuing (resuming) a previous file transfer:
+- Download a file, following location redirects, and automatically continuing (resuming) a previous file transfer and return an error on server error:
 
-`curl --remote-name --location --continue-at - {{http://example.com/filename}}`
+`curl --fail --remote-name --location --continue-at - {{http://example.com/filename}}`
 
 - Send form-encoded data (POST request of type `application/x-www-form-urlencoded`). Use `--data @file_name` or `--data @'-'` to read from STDIN:
 

@@ -1,9 +1,9 @@
 # konsole
 
 > Konsole: KDE 终端模拟器。
-> 更多信息：<https://konsole.kde.org>.
+> 更多信息：<https://docs.kde.org/trunk5/en/konsole/konsole/command-line-options.html>.
 
-- 在特定目录中打开一个新的 Konsole:
+- 在特定目录中打开一个新的 Konsole：
 
 `konsole --workdir {{path/to/directory}}`
 
@@ -19,6 +19,6 @@
 
 `konsole --background-mode`
 
-- 使用紧急备冗配置文件打开 Konsole:
+- 使用紧急备冗配置文件打开 Konsole：
 
 `konsole --fallback-profile`

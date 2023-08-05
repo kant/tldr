@@ -1,8 +1,8 @@
 # archey
 
-> Simples Tool um system informationen stylish zu präsentieren.
-> Mehr Informationen: <https://lclarkmichalek.github.io/archey3/>.
+> Simples Tool um System-Informationen stylisch zu präsentieren.
+> Weitere Informationen: <https://lclarkmichalek.github.io/archey3/>.
 
-- Zeige System Informationen:
+- Zeige System-Informationen:
 
 `archey`
