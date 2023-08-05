@@ -1,7 +1,7 @@
 # anbox
 
-> Führe Android-Anwendungen auf jedem GNU/Linux Betriebssystem aus.
-> Mehr Informationen: <https://manned.org/anbox>.
+> Führe Android-Anwendungen auf jedem GNU/Linux-Betriebssystem aus.
+> Weitere Informationen: <https://manned.org/anbox>.
 
 - Starte Anbox im App Manager:
 

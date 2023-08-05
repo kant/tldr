@@ -1,7 +1,8 @@
 # Get-History
 
 > Display PowerShell command history.
-> More information: <https://docs.microsoft.com/powershell/module/microsoft.powershell.core/get-history>.
+> This command can only be used through PowerShell.
+> More information: <https://learn.microsoft.com/powershell/module/microsoft.powershell.core/get-history>.
 
 - Display the commands history list with ID:
 
@@ -13,4 +14,4 @@
 
 - Display the last N commands:
 
-`Get-History -Count {{count}}`
+`Get-History -Count {{10}}`
