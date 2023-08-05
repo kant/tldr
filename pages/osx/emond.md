@@ -2,7 +2,7 @@
 
 > Event Monitor service that accepts events from various services, runs them through a simple rules engine, and takes action.
 > The actions can run commands, send email, or SMS messages.
-> More information: <https://www.xorrior.com/emond-persistence/>.
+> More information: <https://www.manpagez.com/man/8/emond/>.
 
 - Start the daemon:
 
@@ -14,4 +14,4 @@
 
 - Use a specific configuration file:
 
-`emond -c {{path/to/config}}`
+`emond -c {{path/to/config_file}}`

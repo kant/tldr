@@ -1,7 +1,7 @@
 # cmd
 
 > Windows 命令解釋器。
-> 更多資訊：<https://docs.microsoft.com/windows-server/administration/windows-commands/cmd>.
+> 更多資訊：<https://learn.microsoft.com/windows-server/administration/windows-commands/cmd>.
 
 - 開啟一個新的命令列執行個體：
 
@@ -11,7 +11,7 @@
 
 `cmd /c "{{命令}}"`
 
-- 執行一個指定的命令，之後進入一個互動式 shell:
+- 執行一個指定的命令，之後進入一個互動式 shell：
 
 `cmd /k "{{命令}}"`
 

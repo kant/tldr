@@ -1,6 +1,6 @@
 # httpie
 
-> A user friendly command-line HTTP tool.
+> A user friendly HTTP tool.
 > More information: <https://github.com/httpie/httpie>.
 
 - Send a GET request (default method with no request data):
@@ -30,3 +30,7 @@
 - Download a file:
 
 `http --download {{https://example.com}}`
+
+- Follow redirects and show intermediary requests and responses:
+
+`http --follow --all {{https://example.com}}`
