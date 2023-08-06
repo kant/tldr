@@ -1,7 +1,7 @@
 # ts-node
 
 > Run TypeScript code directly, without any compiling.
-> More information: <https://www.npmjs.com/package/ts-node>.
+> More information: <https://typestrong.org/ts-node>.
 
 - Execute a TypeScript file without compiling (`node` + `tsc`):
 
@@ -11,7 +11,7 @@
 
 `ts-node --skip-project {{path/to/file.ts}}`
 
-- Evaluate TypeScript code passed as a literal on the command-line:
+- Evaluate TypeScript code passed as a literal:
 
 `ts-node --eval '{{console.log("Hello World")}}'`
 

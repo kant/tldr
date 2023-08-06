@@ -10,6 +10,7 @@ The templates can be changed when necessary.
 [ar](#ar) •
 [bn](#bn) •
 [bs](#bs) •
+[ca](#ca) •
 [da](#da) •
 [de](#de) •
 [es](#es) •
@@ -20,7 +21,9 @@ The templates can be changed when necessary.
 [it](#it) •
 [ja](#ja) •
 [ko](#ko) •
+[lo](#lo) •
 [ml](#ml) •
+[ne](#ne) •
 [nl](#nl) •
 [no](#no) •
 [pl](#pl) •
@@ -35,9 +38,9 @@ The templates can be changed when necessary.
 [th](#th) •
 [tr](#tr) •
 [uk](#uk) •
+[uz](#uz) •
 [zh](#zh) •
 [zh_TW](#zh_tw)
-
 ---
 ### en
 
@@ -83,9 +86,30 @@ Not translated yet.
 ```
 
 ---
+### ca
+
+```markdown
+# example
+
+> Aquest comandament és un àlies de `example`.
+
+- Veure documentació pel comandament original:
+
+`tldr example`
+```
+
+---
 ### da
 
-Not translated yet.
+```markdown
+# example
+
+> Denne kommando er et alias af `example`.
+
+- Se dokumentation for den oprindelige kommando:
+
+`tldr example`
+```
 
 ---
 ### de
@@ -176,7 +200,7 @@ Not translated yet.
 ```markdown
 # example
 
-> このコマンドは `example` のエイリアスです.
+> このコマンドは `example` のエイリアスです。
 
 - オリジナルのコマンドのドキュメントを表示する:
 
@@ -197,6 +221,19 @@ Not translated yet.
 ```
 
 ---
+### lo
+
+```markdown
+# example
+
+> ຄຳສັ່ງນີ້ເປັນອີກຊື່ໜຶ່ງຂອງຄຳສັ່ງ `example`.
+
+- ເປີດເບິ່ງລາຍລະອຽດຂອງຄຳສັ່ງແບບເຕັມ:
+
+`tldr example`
+```
+
+---
 ### ml
 
 ```markdown
@@ -205,6 +242,19 @@ Not translated yet.
 > ഈ കമാൻഡ് `example` എന്നത്തിന്റെ അപരനാമമാണ്.
 
 - യഥാർത്ഥ കമാൻഡിനായി ഡോക്യുമെന്റേഷൻ കാണുക:
+
+`tldr example`
+```
+
+---
+### ne
+
+```markdown
+# example
+
+> यो आदेश `example` को उपनाम हो |
+
+- मौलिक आदेशको लागि कागजात हेर्नुहोस्:
 
 `tldr example`
 ```
@@ -241,9 +291,9 @@ Not translated yet.
 ```markdown
 # example
 
-> Te polecenie jest aliasem `example`.
+> To polecenie jest aliasem `example`.
 
-- Zobacz dokumentację orginalnego polecenia:
+- Zobacz dokumentację oryginalnego polecenia:
 
 `tldr example`
 ```
@@ -264,7 +314,15 @@ Not translated yet.
 ---
 ### pt_PT
 
-Not translated yet.
+```markdown
+# example
+
+> Este comando é um alias de `example`.
+
+- Ver documentação do comando original:
+
+`tldr example`
+```
 
 ---
 ### ro
@@ -326,7 +384,7 @@ Not translated yet.
 ```markdown
 # example
 
-> คำสั่งนี้เป็นอีกชื่อหนึ่งของคำสั่ง `example`.
+> คำสั่งนี้เป็นอีกชื่อหนึ่งของคำสั่ง `example`
 
 - เรียกดูรายละเอียดสำหรับคำสั่งตัวเต็ม:
 
@@ -336,7 +394,15 @@ Not translated yet.
 ---
 ### tr
 
-Not translated yet.
+```markdown
+# example
+
+> Bu komut `example` için bir takma addır.
+
+- Asıl komutun belgelerini görüntüleyin:
+
+`tldr example`
+```
 
 ---
 ### uk
@@ -350,6 +416,11 @@ Not translated yet.
 
 `tldr example`
 ```
+
+---
+### uz
+
+Not translated yet.
 
 ---
 ### zh
@@ -372,7 +443,7 @@ Not translated yet.
 
 > 這是 `example` 命令的一個別名。
 
-- 原命令的文檔在：
+- 原命令的文件在：
 
 `tldr example`
 ```
