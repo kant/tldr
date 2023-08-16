@@ -1,7 +1,7 @@
 # asciiart
 
 > Konvertiere Bilder zu ASCII.
-> Mehr Informationen: <https://github.com/nodanaonlyzuul/asciiart>.
+> Weitere Informationen: <https://github.com/nodanaonlyzuul/asciiart>.
 
 - Lese ein Bild aus einer Datei und zeige es als ASCII:
 
@@ -23,6 +23,6 @@
 
 `asciiart --format {{text|html}} {{pfad/zum/bild.jpg}}`
 
-- Invertiere die Buchstaben Map:
+- Invertiere die Zeichentabelle:
 
 `asciiart --invert-chars {{pfad/zum/bild.jpg}}`

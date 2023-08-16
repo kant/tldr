@@ -10,6 +10,7 @@ The templates can be changed when necessary.
 [ar](#ar) •
 [bn](#bn) •
 [bs](#bs) •
+[ca](#ca) •
 [da](#da) •
 [de](#de) •
 [es](#es) •
@@ -20,7 +21,9 @@ The templates can be changed when necessary.
 [it](#it) •
 [ja](#ja) •
 [ko](#ko) •
+[lo](#lo) •
 [ml](#ml) •
+[ne](#ne) •
 [nl](#nl) •
 [no](#no) •
 [pl](#pl) •
@@ -35,10 +38,12 @@ The templates can be changed when necessary.
 [th](#th) •
 [tr](#tr) •
 [uk](#uk) •
+[uz](#uz) •
 [zh](#zh) •
 [zh_TW](#zh_tw)
 
 ---
+
 ### en
 
 ```markdown
@@ -52,6 +57,7 @@ The templates can be changed when necessary.
 ```
 
 ---
+
 ### ar
 
 ```markdown
@@ -65,11 +71,13 @@ The templates can be changed when necessary.
 ```
 
 ---
+
 ### bn
 
 Not translated yet.
 
 ---
+
 ### bs
 
 ```markdown
@@ -83,11 +91,35 @@ Not translated yet.
 ```
 
 ---
-### da
 
-Not translated yet.
+### ca
+
+```markdown
+# example
+
+> Aquest comandament és un àlies de `example`.
+
+- Veure documentació pel comandament original:
+
+`tldr example`
+```
 
 ---
+
+### da
+
+```markdown
+# example
+
+> Denne kommando er et alias af `example`.
+
+- Se dokumentation for den oprindelige kommando:
+
+`tldr example`
+```
+
+---
+
 ### de
 
 ```markdown
@@ -101,6 +133,7 @@ Not translated yet.
 ```
 
 ---
+
 ### es
 
 ```markdown
@@ -114,11 +147,21 @@ Not translated yet.
 ```
 
 ---
+
 ### fa
 
-Not translated yet.
+```markdown
+# example
+
+> این دستور یک نام مستعار از `example` است.
+
+- مشاهده مستندات دستور اصلی
+
+`tldr example`
+```
 
 ---
+
 ### fr
 
 ```markdown
@@ -132,6 +175,7 @@ Not translated yet.
 ```
 
 ---
+
 ### hi
 
 ```markdown
@@ -145,6 +189,7 @@ Not translated yet.
 ```
 
 ---
+
 ### id
 
 ```markdown
@@ -158,6 +203,7 @@ Not translated yet.
 ```
 
 ---
+
 ### it
 
 ```markdown
@@ -171,12 +217,13 @@ Not translated yet.
 ```
 
 ---
+
 ### ja
 
 ```markdown
 # example
 
-> このコマンドは `example` のエイリアスです.
+> このコマンドは `example` のエイリアスです。
 
 - オリジナルのコマンドのドキュメントを表示する:
 
@@ -184,6 +231,7 @@ Not translated yet.
 ```
 
 ---
+
 ### ko
 
 ```markdown
@@ -197,6 +245,21 @@ Not translated yet.
 ```
 
 ---
+
+### lo
+
+```markdown
+# example
+
+> ຄຳສັ່ງນີ້ເປັນອີກຊື່ໜຶ່ງຂອງຄຳສັ່ງ `example`.
+
+- ເປີດເບິ່ງລາຍລະອຽດຂອງຄຳສັ່ງແບບເຕັມ:
+
+`tldr example`
+```
+
+---
+
 ### ml
 
 ```markdown
@@ -210,6 +273,21 @@ Not translated yet.
 ```
 
 ---
+
+### ne
+
+```markdown
+# example
+
+> यो आदेश `example` को उपनाम हो |
+
+- मौलिक आदेशको लागि कागजात हेर्नुहोस्:
+
+`tldr example`
+```
+
+---
+
 ### nl
 
 ```markdown
@@ -223,6 +301,7 @@ Not translated yet.
 ```
 
 ---
+
 ### no
 
 ```markdown
@@ -236,19 +315,21 @@ Not translated yet.
 ```
 
 ---
+
 ### pl
 
 ```markdown
 # example
 
-> Te polecenie jest aliasem `example`.
+> To polecenie jest aliasem `example`.
 
-- Zobacz dokumentację orginalnego polecenia:
+- Zobacz dokumentację oryginalnego polecenia:
 
 `tldr example`
 ```
 
 ---
+
 ### pt_BR
 
 ```markdown
@@ -262,16 +343,27 @@ Not translated yet.
 ```
 
 ---
+
 ### pt_PT
 
-Not translated yet.
+```markdown
+# example
+
+> Este comando é um alias de `example`.
+
+- Ver documentação do comando original:
+
+`tldr example`
+```
 
 ---
+
 ### ro
 
 Not translated yet.
 
 ---
+
 ### ru
 
 ```markdown
@@ -285,16 +377,19 @@ Not translated yet.
 ```
 
 ---
+
 ### sh
 
 Not translated yet.
 
 ---
+
 ### sr
 
 Not translated yet.
 
 ---
+
 ### sv
 
 ```markdown
@@ -308,6 +403,7 @@ Not translated yet.
 ```
 
 ---
+
 ### ta
 
 ```markdown
@@ -321,12 +417,13 @@ Not translated yet.
 ```
 
 ---
+
 ### th
 
 ```markdown
 # example
 
-> คำสั่งนี้เป็นอีกชื่อหนึ่งของคำสั่ง `example`.
+> คำสั่งนี้เป็นอีกชื่อหนึ่งของคำสั่ง `example`
 
 - เรียกดูรายละเอียดสำหรับคำสั่งตัวเต็ม:
 
@@ -334,11 +431,21 @@ Not translated yet.
 ```
 
 ---
+
 ### tr
 
-Not translated yet.
+```markdown
+# example
+
+> Bu komut `example` için bir takma addır.
+
+- Asıl komutun belgelerini görüntüleyin:
+
+`tldr example`
+```
 
 ---
+
 ### uk
 
 ```markdown
@@ -352,6 +459,13 @@ Not translated yet.
 ```
 
 ---
+
+### uz
+
+Not translated yet.
+
+---
+
 ### zh
 
 ```markdown
@@ -365,6 +479,7 @@ Not translated yet.
 ```
 
 ---
+
 ### zh_TW
 
 ```markdown
@@ -372,7 +487,7 @@ Not translated yet.
 
 > 這是 `example` 命令的一個別名。
 
-- 原命令的文檔在：
+- 原命令的文件在：
 
 `tldr example`
 ```

@@ -1,7 +1,7 @@
 # cmd
 
 > Windows 命令解释器。
-> 更多信息：<https://docs.microsoft.com/windows-server/administration/windows-commands/cmd>.
+> 更多信息：<https://learn.microsoft.com/windows-server/administration/windows-commands/cmd>.
 
 - 开启一个新的命令行实例：
 
@@ -11,7 +11,7 @@
 
 `cmd /c "{{命令}}"`
 
-- 执行一个指定的命令，之后进入一个交互式 shell:
+- 执行一个指定的命令，之后进入一个交互式 shell：
 
 `cmd /k "{{命令}}"`
 
